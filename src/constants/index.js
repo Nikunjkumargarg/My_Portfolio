@@ -1,4 +1,7 @@
 import {
+  aws,
+  cloud,
+  microservices,
   frontend,
   backend,
   ux,
@@ -27,20 +30,24 @@ import {
   dcc,
   kelhel,
   microverse,
-} from '../assets';
+  database,
+  mongodb,
+  nodered,
+  sql,
+} from "../assets";
 
 export const navLinks = [
   {
-    id: 'about',
-    title: 'About',
+    id: "about",
+    title: "About",
   },
   {
-    id: 'projects',
-    title: 'Projects',
+    id: "projects",
+    title: "Projects",
   },
   {
-    id: 'contact',
-    title: 'Contact',
+    id: "contact",
+    title: "Contact",
   },
 ];
 
@@ -69,35 +76,72 @@ const services = [
   //   icon: frontend,
   // },
   {
-    title: 'Backend Developer',
+    title: "Backend Developer",
     icon: backend,
   },
-  // {
-  //   title: 'UI/UX Design',
-  //   icon: ux,
-  // },
   {
-    title: 'Software Prototyping',
-    icon: prototyping,
+    title: "Microservices",
+    icon: microservices,
+  },
+  {
+    title: "Database Management",
+    icon: database,
+  },
+  {
+    title: "Cloud Services",
+    icon: cloud,
   },
 ];
 
 const technologies = [
   {
-    name: 'HTML 5',
+    name: "HTML 5",
     icon: html,
   },
   {
-    name: 'CSS 3',
+    name: "CSS 3",
     icon: css,
   },
   {
-    name: 'JavaScript',
+    name: "JavaScript",
     icon: javascript,
   },
   {
-    name: 'TypeScript',
+    name: "TypeScript",
     icon: typescript,
+  },
+  {
+    name: "Node JS",
+    icon: nodejs,
+  },
+  {
+    name: "sql",
+    icon: sql,
+  },
+
+  {
+    name: "MongoDb",
+    icon: mongodb,
+  },
+  {
+    name: "postgresql",
+    icon: postgresql,
+  },
+  {
+    name: "git",
+    icon: git,
+  },
+  {
+    name: "Node-Red",
+    icon: nodered,
+  },
+  {
+    name: "docker",
+    icon: docker,
+  },
+  {
+    name: "aws",
+    icon: aws,
   },
   // {
   //   name: 'React JS',
@@ -111,10 +155,7 @@ const technologies = [
   //   name: 'Tailwind CSS',
   //   icon: tailwind,
   // },
-  {
-    name: 'Node JS',
-    icon: nodejs,
-  },
+
   // {
   //   name: 'Rails',
   //   icon: rubyrails,
@@ -123,38 +164,27 @@ const technologies = [
   //   name: 'graphql',
   //   icon: graphql,
   // },
-  {
-    name: 'postgresql',
-    icon: postgresql,
-  },
-  {
-    name: 'git',
-    icon: git,
-  },
+
   // {
   //   name: 'figma',
   //   icon: figma,
   // },
-  {
-    name: 'docker',
-    icon: docker,
-  },
 ];
 
 const experiences = [
   {
-    title: 'Intern Full Stack Development',
-    company_name: 'Cognizant Technology Solutions.',
+    title: "Intern Full Stack Development",
+    company_name: "Cognizant Technology Solutions.",
     icon: coverhunt,
-    iconBg: '#333333',
-    date: 'Jan 2020 - June 2020',
+    iconBg: "#333333",
+    date: "Jan 2020 - June 2020",
   },
   {
-    title: 'Junior Software Engineer',
-    company_name: 'Cognizant Technology Solutions.',
+    title: "Junior Software Engineer",
+    company_name: "Cognizant Technology Solutions.",
     icon: dcc,
-    iconBg: '#333333',
-    date: 'Jan 2022 - May 2023',
+    iconBg: "#333333",
+    date: "Jan 2022 - May 2023",
   },
   // {
   //   title: 'Mentor (Volunteer)',
@@ -163,79 +193,80 @@ const experiences = [
   //   iconBg: '#333333',
   //   date: 'Mar 2022 - May 2022',
   // },
- 
-  {
-    title: 'Backend-End Developer',
-    company_name: 'Zeitgeist Retail Private Limited.',
-    icon: kelhel,
-    iconBg: '#333333',
-    date: 'May 2023 - Present',
-  },
 
+  {
+    title: "Backend-End Developer",
+    company_name: "Zeitgeist Retail Private Limited.",
+    icon: kelhel,
+    iconBg: "#333333",
+    date: "May 2023 - Present",
+  },
 ];
 
 const projects = [
   {
-    id: 'project-1',
-    name: 'Library Management',
-    description: 'Backend API to perform CRUD operations required for daily library management with basic Frontend Interface',
+    id: "project-1",
+    name: "Library Management",
+    description:
+      "Backend API to perform CRUD operations required for daily library management with basic Frontend Interface",
     tags: [
       {
-        name: 'react',
-        color: 'blue-text-gradient',
+        name: "react",
+        color: "blue-text-gradient",
       },
       {
-        name: 'mongodb',
-        color: 'green-text-gradient',
+        name: "mongodb",
+        color: "green-text-gradient",
       },
       {
-        name: 'tailwind',
-        color: 'pink-text-gradient',
+        name: "tailwind",
+        color: "pink-text-gradient",
       },
     ],
-    image: komikult,
+    image: math,
     // repo: 'https://github.com/shaqdeff/KomiKult',
     // demo: 'https://shaqdeff.github.io/KomiKult/',
   },
   {
-    id: 'project-2',
-    name: 'Insurance Solution',
+    id: "project-2",
+    name: "Insurance Solution",
     description:
-      'a user-friendly platform that streamlines insurance processes, ensuring swift and secure coverage for clients.',
+      "a user-friendly platform that streamlines insurance processes, ensuring swift and secure coverage for clients.",
     tags: [
       {
-        name: 'react',
-        color: 'blue-text-gradient',
+        name: "react",
+        color: "blue-text-gradient",
       },
       {
-        name: 'restapi',
-        color: 'green-text-gradient',
+        name: "restapi",
+        color: "green-text-gradient",
       },
       {
-        name: 'scss',
-        color: 'pink-text-gradient',
+        name: "scss",
+        color: "pink-text-gradient",
       },
     ],
-    image: leaderboard,
+    image: math,
     // repo: 'https://github.com/shaqdeff/Leaderboard',
     // demo: 'https://shaqdeff.github.io/Leaderboard/',
   },
   {
-    id: 'project-3',
-    name: 'E-Commerce Platform',
-    description: 'E-Commerce platform, integrates the third party catalog api and process orders.',
+    id: "project-3",
+    name: "E-Commerce Platform",
+    description:
+      "E-Commerce platform, integrates the third party catalog api and process orders.",
     tags: [
       {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
+        name: "nextjs",
+        color: "blue-text-gradient",
       },
       {
-        name: 'supabase',
-        color: 'green-text-gradient',
+        name: "supabase",
+        color: "green-text-gradient",
       },
       {
-        name: 'css',
-        color: 'pink-text-gradient',
+        name: "css",
+        color: "pink-text-gradient",
       },
     ],
     image: math,
@@ -243,27 +274,27 @@ const projects = [
     // demo: 'https://inspiring-medovik-37d3b3.netlify.app/',
   },
   {
-    id: 'project-4',
-    name: 'Travel Packages',
+    id: "project-4",
+    name: "Travel Packages",
     description: `Api to provide the user with different travel packages. CRUD operations are implemented.`,
     tags: [
       {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
+        name: "nextjs",
+        color: "blue-text-gradient",
       },
       {
-        name: 'supabase',
-        color: 'green-text-gradient',
+        name: "supabase",
+        color: "green-text-gradient",
       },
       {
-        name: 'css',
-        color: 'pink-text-gradient',
+        name: "css",
+        color: "pink-text-gradient",
       },
     ],
-    image: movie,
+    image: math,
     // repo: 'https://github.com/shaqdeff/Movie-Metro',
     // demo: 'https://movie-metro.netlify.app/',
-  }
+  },
   // {
   //   id: 'project-5',
   //   name: 'Nyeusi Fest Site',

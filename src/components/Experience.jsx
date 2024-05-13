@@ -103,7 +103,7 @@ const Experience = () => {
               ease-in-out"
               onClick={() =>
                 window.open(
-                  "http://localhost:5173/src/assets/resume/NikunjGargResume.pdf", // Replace this URL with the actual URL of your resume
+                  "http://nikunjgarg.com/src/assets/resume/NikunjGargResume.pdf", // Replace this URL with the actual URL of your resume
                   "_blank"
                 )
               }

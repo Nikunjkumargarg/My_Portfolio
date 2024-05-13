@@ -22,35 +22,49 @@ import menu from './icons/menu.png';
 import resume from './icons/resume.png';
 import send from './icons/send.png';
 import sendHover from './icons/sendHover.png';
+import microservices from "./icons/microservices.png";
+import database from "./icons/database.png";
+import cloud from "./icons/cloud.png";
 
-import css from './tech/css.png';
-import docker from './tech/docker.png';
-import figma from './tech/figma.png';
-import git from './tech/git.png';
-import html from './tech/html.png';
-import javascript from './tech/javascript.png';
-import nodejs from './tech/nodejs.png';
-import reactjs from './tech/reactjs.png';
-import redux from './tech/redux.png';
-import tailwind from './tech/tailwind.png';
-import typescript from './tech/typescript.png';
-import graphql from './tech/graphql.png';
-import postgresql from './tech/postgresql.png';
-import rubyrails from './tech/rubyrails.png';
+import css from "./tech/css.png";
+import docker from "./tech/docker.png";
+import figma from "./tech/figma.png";
+import git from "./tech/git.png";
+import html from "./tech/html.png";
+import javascript from "./tech/javascript.png";
+import nodejs from "./tech/nodejs.png";
+import reactjs from "./tech/reactjs.png";
+import redux from "./tech/redux.png";
+import tailwind from "./tech/tailwind.png";
+import typescript from "./tech/typescript.png";
+import graphql from "./tech/graphql.png";
+import postgresql from "./tech/postgresql.png";
+import rubyrails from "./tech/rubyrails.png";
+import mongodb from "./tech/mongoDb.png";
+import nodered from "./tech/nodered.png";
+import sql from "./tech/sql.jpg";
+import aws from "./tech/aws.png";
 
-import coverhunt from './company/coverhunt.png';
-import dcc from './company/dcc.png';
-import kelhel from './company/kelhel.png';
-import microverse from './company/microverse.png';
+import coverhunt from "./company/coverhunt.png";
+import dcc from "./company/dcc.png";
+import kelhel from "./company/kelhel.png";
+import microverse from "./company/microverse.png";
 
-import komikult from './projects/komikult.png';
-import leaderboard from './projects/leaderboard.png';
-import math from './projects/math-magicians.png';
-import movie from './projects/movie-metro.png';
-import nyeusi from './projects/nyeusi.png';
-import space from './projects/space-hub.png';
+import komikult from "./projects/komikult.png";
+import leaderboard from "./projects/leaderboard.png";
+import math from "./projects/math-magicians.png";
+import movie from "./projects/movie-metro.png";
+import nyeusi from "./projects/nyeusi.png";
+import space from "./projects/space-hub.png";
 
 export {
+  aws,
+  sql,
+  nodered,
+  mongodb,
+  cloud,
+  database,
+  microservices,
   bwmap,
   nairobi,
   whiteabstract,
