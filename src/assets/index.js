@@ -40,7 +40,7 @@ import typescript from "./tech/typescript.png";
 import graphql from "./tech/graphql.png";
 import postgresql from "./tech/postgresql.png";
 import rubyrails from "./tech/rubyrails.png";
-import mongodb from "./tech/mongoDb.png";
+import mongodb from "./tech/mongodb.png";
 import nodered from "./tech/nodered.png";
 import sql from "./tech/sql.jpg";
 import aws from "./tech/aws.png";
