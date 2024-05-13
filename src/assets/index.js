@@ -44,6 +44,7 @@ import mongodb from "./tech/mongodb.png";
 import nodered from "./tech/nodered.png";
 import sql from "./tech/sql.jpg";
 import aws from "./tech/aws.png";
+import rabbitmq from "./tech/rabbitmq.png";
 
 import coverhunt from "./company/coverhunt.png";
 import dcc from "./company/dcc.png";
@@ -58,6 +59,7 @@ import nyeusi from "./projects/nyeusi.png";
 import space from "./projects/space-hub.png";
 
 export {
+  rabbitmq,
   aws,
   sql,
   nodered,

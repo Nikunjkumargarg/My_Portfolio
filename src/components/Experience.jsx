@@ -118,7 +118,7 @@ const Experience = () => {
                   .setAttribute("src", download);
               }}
             >
-              MY RESUME
+              MY CV
               <img
                 src={download}
                 alt="download"

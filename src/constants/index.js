@@ -1,4 +1,5 @@
 import {
+  rabbitmq,
   aws,
   cloud,
   microservices,
@@ -138,6 +139,10 @@ const technologies = [
   {
     name: "docker",
     icon: docker,
+  },
+  {
+    name: "rabbitmq",
+    icon: rabbitmq,
   },
   {
     name: "aws",
