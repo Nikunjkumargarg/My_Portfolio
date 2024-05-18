@@ -26,7 +26,7 @@ const Contact = () => {
           <div className="flex flex-col">
             <span className="text-timberWolf font-medium mb-2">LinkedIn:</span>
             <a
-              href="www.linkedin.com/in/nikunjkgarg"
+              href="https://www.linkedin.com/in/nikunjkgarg/"
               className="text-blue-400 underline"
             >
               Visit My LinkedIn Profile
