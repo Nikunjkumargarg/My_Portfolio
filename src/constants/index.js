@@ -1,5 +1,6 @@
 import {
   rabbitmq,
+  nestjs,
   aws,
   cloud,
   microservices,
@@ -12,7 +13,6 @@ import {
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
   git,
@@ -31,10 +31,15 @@ import {
   dcc,
   kelhel,
   microverse,
+  kafka,
   database,
   mongodb,
   nodered,
   sql,
+  redux,
+  projectsicon,
+  nosh,
+  ipsator,
 } from "../assets";
 
 export const navLinks = [
@@ -72,13 +77,13 @@ export const navLinks = [
 // ];
 
 const services = [
-  // {
-  //   title: 'Frontend Developer',
-  //   icon: frontend,
-  // },
   {
     title: "Backend Developer",
     icon: backend,
+  },
+  {
+    title: "Frontend Developer",
+    icon: frontend,
   },
   {
     title: "Microservices",
@@ -95,14 +100,7 @@ const services = [
 ];
 
 const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
+ 
   {
     name: "JavaScript",
     icon: javascript,
@@ -148,28 +146,26 @@ const technologies = [
     name: "aws",
     icon: aws,
   },
-  // {
-  //   name: 'React JS',
-  //   icon: reactjs,
-  // },
-  // {
-  //   name: 'Redux Toolkit',
-  //   icon: redux,
-  // },
-  // {
-  //   name: 'Tailwind CSS',
-  //   icon: tailwind,
-  // },
-
-  // {
-  //   name: 'Rails',
-  //   icon: rubyrails,
-  // },
-  // {
-  //   name: 'graphql',
-  //   icon: graphql,
-  // },
-
+  {
+    name: 'React JS',
+    icon: reactjs,
+  },
+  {
+    name: 'NestJS',
+    icon: nestjs,
+  },
+  {
+    name: 'Tailwind CSS',
+    icon: tailwind,
+  },
+  {
+    name: 'Redux Toolkit',
+    icon: redux,
+  },
+  {
+    name: 'Kafka',
+    icon: kafka,
+  },
   // {
   //   name: 'figma',
   //   icon: figma,
@@ -178,110 +174,117 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Intern Full Stack Development",
-    company_name: "Cognizant Technology Solutions.",
-    icon: coverhunt,
+    title: "Full Stack Developer",
+    company_name: "Nosh Robotics",
+    icon: nosh,
     iconBg: "#333333",
-    date: "Jan 2020 - June 2020",
+    date: "July 2025 - Present",
+  },
+  {
+    title: "Software Engineer (Freelance)",
+    company_name: "Ipsator",
+    icon: ipsator,
+    iconBg: "#333333",
+    date: "April 2025 - July 2025",
+  },
+  {
+    title: "Integration Engineer",
+    company_name: "Zeitgeist Retail Private Limited.",
+    icon: kelhel,
+    iconBg: "#333333",
+    date: "Jan 2024 - Feb 2025",
   },
   {
     title: "Junior Software Engineer",
     company_name: "Cognizant Technology Solutions.",
     icon: dcc,
     iconBg: "#333333",
-    date: "Jan 2022 - May 2023",
-  },
-  // {
-  //   title: 'Mentor (Volunteer)',
-  //   company_name: 'Microverse',
-  //   icon: microverse,
-  //   iconBg: '#333333',
-  //   date: 'Mar 2022 - May 2022',
-  // },
-
-  {
-    title: "Backend-End Developer",
-    company_name: "Zeitgeist Retail Private Limited.",
-    icon: kelhel,
-    iconBg: "#333333",
-    date: "May 2023 - Present",
+    date: "Jan 2021 - March 2022",
   },
 ];
 
 const projects = [
   {
     id: "project-1",
-    name: "Library Management",
+    name: "DevTinder",
     description:
-      "Backend API to perform CRUD operations required for daily library management with basic Frontend Interface",
+      "A dating app for developers to find other developers to collaborate with.",
     tags: [
       {
-        name: "react",
+        name: "NodeJs",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "expressJs",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "MySQL",
         color: "pink-text-gradient",
       },
     ],
-    image: math,
-    // repo: 'https://github.com/shaqdeff/KomiKult',
-    // demo: 'https://shaqdeff.github.io/KomiKult/',
-  },
-  {
-    id: "project-2",
-    name: "Insurance Solution",
-    description:
-      "a user-friendly platform that streamlines insurance processes, ensuring swift and secure coverage for clients.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: math,
-    // repo: 'https://github.com/shaqdeff/Leaderboard',
-    // demo: 'https://shaqdeff.github.io/Leaderboard/',
-  },
-  {
-    id: "project-3",
-    name: "E-Commerce Platform",
-    description:
-      "E-Commerce platform, integrates the third party catalog api and process orders.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: math,
+    image: projectsicon,
     // repo: 'https://github.com/shaqdeff/Math-Magicians',
     // demo: 'https://inspiring-medovik-37d3b3.netlify.app/',
   },
   {
+    id: "project-2",
+    name: " Program Scheduler",
+    description:
+      " Awebapplication built for premier educational institutions like IITs and IIMs to manage and monitor ongoing academic programs within the campus.",
+    tags: [
+      {
+        name: "NestJs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "green-text-gradient",
+      },
+      {
+        name: "TypeScript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: projectsicon,
+    // repo: 'https://github.com/shaqdeff/KomiKult',
+    // demo: 'https://shaqdeff.github.io/KomiKult/',
+  },
+  {
+    id: "project-3",
+    name: "AI Recommendation System",
+    description:
+      "The system analyzes data from the company and competitors’ URLs, suggests relevant keywords using OpenAI, and offers recommendation tasks.",
+    tags: [
+      {
+        name: "NodeJs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "ExpressJs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "PostgreSQL",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "OpenAI",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Trello",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: projectsicon,
+    // repo: 'https://github.com/shaqdeff/Leaderboard',
+    // demo: 'https://shaqdeff.github.io/Leaderboard/',
+  },
+  {
     id: "project-4",
-    name: "Travel Packages",
-    description: `Api to provide the user with different travel packages. CRUD operations are implemented.`,
+    name: " In-Flight Entertainment",
+    description: `Developed an in-flight entertainment system for Indigo, where passengers can create orders during the flight.`,
     tags: [
       {
         name: "nextjs",
@@ -296,33 +299,10 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: math,
+    image: projectsicon,
     // repo: 'https://github.com/shaqdeff/Movie-Metro',
     // demo: 'https://movie-metro.netlify.app/',
   },
-  // {
-  //   id: 'project-5',
-  //   name: 'Nyeusi Fest Site',
-  //   description:
-  //     'This is a demo concert website for a music festival called Nyeusi.',
-  //   tags: [
-  //     {
-  //       name: 'nextjs',
-  //       color: 'blue-text-gradient',
-  //     },
-  //     {
-  //       name: 'supabase',
-  //       color: 'green-text-gradient',
-  //     },
-  //     {
-  //       name: 'css',
-  //       color: 'pink-text-gradient',
-  //     },
-  //   ],
-  //   image: nyeusi,
-  //   // repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
-  //   // demo: 'https://shaqdeff.github.io/Nyeusi-Fest-Site/',
-  // },
 ];
 
 export { services, technologies, experiences, projects };

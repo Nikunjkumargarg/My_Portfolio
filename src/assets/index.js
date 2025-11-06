@@ -25,6 +25,8 @@ import sendHover from './icons/sendHover.png';
 import microservices from "./icons/microservices.png";
 import database from "./icons/database.png";
 import cloud from "./icons/cloud.png";
+import nestjs from "./icons/nestjs.png";
+import kafka from "./icons/kafka.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -50,6 +52,8 @@ import coverhunt from "./company/coverhunt.png";
 import dcc from "./company/dcc.png";
 import kelhel from "./company/kelhel.png";
 import microverse from "./company/microverse.png";
+import ipsator from "./company/ipsator.jpeg";
+import nosh from "./company/nosh.jpg";
 
 import komikult from "./projects/komikult.png";
 import leaderboard from "./projects/leaderboard.png";
@@ -57,6 +61,7 @@ import math from "./projects/math-magicians.png";
 import movie from "./projects/movie-metro.png";
 import nyeusi from "./projects/nyeusi.png";
 import space from "./projects/space-hub.png";
+import projectsicon from "./projects/projectsicon.png";
 
 export {
   rabbitmq,
@@ -64,6 +69,8 @@ export {
   sql,
   nodered,
   mongodb,
+  nestjs,
+  kafka,
   cloud,
   database,
   microservices,
@@ -108,8 +115,11 @@ export {
   movie,
   nyeusi,
   space,
+  projectsicon,
   coverhunt,
   dcc,
   kelhel,
   microverse,
+  ipsator,
+  nosh,
 };

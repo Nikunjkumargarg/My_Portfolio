@@ -32,6 +32,15 @@ const Contact = () => {
               Visit My LinkedIn Profile
             </a>
           </div>
+          <div className="flex flex-col">
+            <span className="text-timberWolf font-medium mb-2">GitHub:</span>
+            <a
+              href="https://github.com/Nikunjkumargarg"
+              className="text-blue-400 underline"
+            >
+              Visit My Github Profile
+            </a>
+          </div>
         </div>
       </motion.div>
     </div>

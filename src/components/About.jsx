@@ -38,14 +38,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]"
       >
-        Experienced Backend Developer with 2 years of hands-on expertise in
-        optimizing system performance and fostering user engagement.
-        Demonstrated success in elevating conversion rates by deploying
-        efficient backend solutions. Proficient in harnessing contemporary
-        backend technologies to refine user experiences and drive sales, leading
-        to a notable revenue upsurge across prior projects. Committed to ongoing
-        learning and remaining abreast of emerging trends in backend
-        development.
+        I’m a Full Stack Developer with 3+ years of experience building robust web applications using React.js, Tailwind CSS, Node.js, Express, and NestJS. Proficient in both SQL and NoSQL databases like PostgreSQL, MySQL, and MongoDB. I’m passionate about crafting scalable systems, improving performance, and delivering seamless user experiences through clean and efficient code.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

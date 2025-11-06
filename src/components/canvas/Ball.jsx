@@ -10,6 +10,10 @@ import {
 import Loader from '../Loader';
 
 const Ball = (props) => {
+  if (!props.imgUrl) {
+    return null;
+  }
+
   const [decal] = useTexture([props.imgUrl]);
 
   return (
@@ -36,6 +40,10 @@ const Ball = (props) => {
 };
 
 const BallCanvas = ({ icon }) => {
+  if (!icon) {
+    return <div className="w-28 h-28 flex items-center justify-center text-taupe">No icon</div>;
+  }
+
   return (
     <Canvas frameloop="always" gl={{ preserveDrawingBuffer: true }}>
       <Suspense fallback={<Loader />}>

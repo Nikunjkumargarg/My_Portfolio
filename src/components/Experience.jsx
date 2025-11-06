@@ -103,7 +103,7 @@ const Experience = () => {
               ease-in-out"
               onClick={() =>
                 window.open(
-                  "https://my-portfolio-urnm.vercel.app/NikunjGargResume.pdf", // Replace this URL with the actual URL of your resume
+                  "/Nikunjkumargargcv.pdf",
                   "_blank"
                 )
               }
