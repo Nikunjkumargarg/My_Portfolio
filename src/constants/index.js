@@ -174,33 +174,26 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Full Stack Developer",
+    title: "Software Developer Engineer",
     company_name: "Nosh Robotics",
     icon: nosh,
     iconBg: "#333333",
     date: "July 2025 - Present",
   },
   {
-    title: "Software Engineer (Freelance)",
+    title: "Backend Developer",
     company_name: "Ipsator",
     icon: ipsator,
     iconBg: "#333333",
-    date: "April 2025 - July 2025",
+    date: "Jun 2024 - July 2025",
   },
   {
-    title: "Integration Engineer",
+    title: "Software Engineer",
     company_name: "Zeitgeist Retail Private Limited.",
     icon: kelhel,
     iconBg: "#333333",
-    date: "Jan 2024 - Feb 2025",
-  },
-  {
-    title: "Junior Software Engineer",
-    company_name: "Cognizant Technology Solutions.",
-    icon: dcc,
-    iconBg: "#333333",
-    date: "Jan 2021 - March 2022",
-  },
+    date: "Jan 2023 - Jun 2024",
+  }
 ];
 
 const projects = [
