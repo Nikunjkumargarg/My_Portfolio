@@ -103,7 +103,7 @@ const Experience = () => {
               ease-in-out"
               onClick={() =>
                 window.open(
-                  "/Nikunjkumargargcv.pdf",
+                  "/nikunjkumargarg-cv.pdf",
                   "_blank"
                 )
               }
